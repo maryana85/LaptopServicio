@@ -21,773 +21,769 @@
     <meta name="author" content="Mariana Contreras Méndez">
     <meta name="keywords" content="Reparacion, Mantenimiento, Computadoras">
     
-    <link rel="stylesheet" href="estilo.css" />  
+    <link rel="stylesheet" href="css\estilo.css" />  
     <link rel="icon" href="Imagenes\Favicon.jpg" type="image/jpg" sizes="16x16">
     <link rel="icon" href="Imagenes\Favicon.jpg" type="image/jpg" sizes="32x32">
     <link rel="apple-touch-icon" href="Imagenes\Favicon.jpg" sizes="180x180">
 
     <style id="nightModeStyle">
-html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
- html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style>
-
- <style id="cyebody">html.cye-enabled.cye-lm body{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
- <style id="cyediv">html.cye-enabled.cye-lm div{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
- <style id="cyetable">html.cye-enabled.cye-lm th{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm td{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
- <style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm textarea{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
- <style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
-<style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
-<style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
-
- <noscript>  
-    <style>    .animated {      animation-play-state: running !important;    }    @keyframes pulse {}  </style>
-</noscript>
-
-<script nonce="">!function(){"use strict";function n(n,t){let e=(null==t?void 0:t.runOnLoad)?void 0:document.documentElement.clientWidth,o=(null==t?void 0:t.runOnLoad)?void 0:window.innerHeight;const r=()=>{const r={runOnLoad:!1,runOnWidthChange:!0,runOnHeightChange:!1,...t},i=document.documentElement.clientWidth,d=window.innerHeight,c=o!==d;(e!==i&&r.runOnWidthChange||c&&r.runOnHeightChange)&&n(),e=i,o=d},i=function(n,t){let e;return(...o)=>{clearTimeout(e),e=setTimeout((()=>{n(...o)}),t)}}(r,100);window.addEventListener("resize",i),(null==t?void 0:t.runOnLoad)&&("loading"===document.readyState?window.addEventListener("DOMContentLoaded",r):r())}function t(n,t,e=.001){return Math.abs(n-t)<e}function e(n,t){return window.getComputedStyle(n).getPropertyValue(t)}function o(n,t,e){n.style.setProperty(t,e)}function r(n,t){const o=document.createElement("div");o.style.setProperty(n,t),document.body.append(o);const r=e(o,n);return o.remove(),r}function i(){const i=function(){const n=parseFloat(r("font-size","0.1px"));return n>1?n:0}(),d=function(n){const t=2*Math.max(n,1);return t/parseFloat(r("font-size",`${t}px`))}(i);if(function(t){if(0===t)return;o(document.documentElement,"--minfs",`${t}px`),n((()=>{const n=100*t,{clientWidth:e}=document.documentElement;o(document.documentElement,"--rzf",n>e?(e/n).toPrecision(4):null)}),{runOnLoad:!0})}(i*Math.max(1,d)),t(d,1))return;const c=t(parseFloat(e(document.documentElement,"font-size")),parseFloat(r("grid-template-columns","1rem")));o(document.documentElement,c?"--rfso":"--bfso",d.toPrecision(4))}function d(){document.querySelectorAll("img, image, video, svg").forEach((n=>n.addEventListener("contextmenu",(n=>n.preventDefault()))))}function c(){const n=window.innerWidth-document.documentElement.clientWidth;var t,e,o;t=document.documentElement,e="--sbw",o=n>=0?`${n}px`:null,t.style.setProperty(e,o)}var u;const a="undefined"!=typeof window?null===(u=window.navigator)||void 0===u?void 0:u.userAgent:void 0;const m=!(!a||(l=a,!l.match(/AppleWebKit\//)||l.match(/Chrome\//)||l.match(/Chromium\//)));var l;function s(n){const t=Array.from(n.children);t.forEach(((n,e)=>{if(n.hasAttribute("data-foreign-object-container"))n.style.transformOrigin="",n.style.transform="";else{const o=document.createElement("div");o.setAttribute("data-foreign-object-container",""),o.style.willChange="transform",n.insertAdjacentElement("beforebegin",o),n.remove(),o.append(n),t[e]=o}}));const e=n.getScreenCTM();if(!e)return;const{a:o,b:r,c:i,d:d}=e;t.forEach((n=>{if(!n.hasAttribute("data-foreign-object-container"))return;const{style:t}=n;t.transformOrigin="0px 0px",t.transform=`matrix(${o}, ${r}, ${i}, ${d}, 0, 0)`}))}let f;function h(){f||(f=Array.from(document.querySelectorAll("foreignObject")).filter((n=>0===n.getBoundingClientRect().width))),Array.from(f).forEach(s)}[function(){"loading"===document.readyState?window.addEventListener("DOMContentLoaded",i):i()},function(){n(c,{runOnLoad:!0})},function(){m&&n(h,{runOnLoad:!0})},function(){"loading"===document.readyState?window.addEventListener("DOMContentLoaded",d):d()}].forEach((n=>n()))}();
-    </script>
-</head>
-<div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 1980px; height: 1080px; z-index: -2147483648;">
-</div>
-<body style="">
-<div id="root">
-    <section id="jWxV1jBWKQmn1oBj" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;">
-<div id="rgKH5988V6U9xzW1" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="BKyS49Z2c1Y0mq0e" style="z-index:0;position:relative;">
-<div id="w8BCckSiQrxFVZyZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="uwzgY8YgGgdFDIxw" style="width:100%;opacity:1.0;height:100%;">
-<div id="kyehIJgbL8eRvDbY" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-<div id="a7W6gXXdEEhia9fH" style="transform: rotate(0deg); top: -0.0244141%; left: 0%; width: 110.464%; position: absolute; height: 110.518%; opacity: 1;">
-<img src="./Imagenes/Fondo Azul Degradado.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="B8Q9orsegBNnPpOL" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="a4j9h8XFPYlRdL9q" style="z-index:5;position:relative;">
-<div id="AWKzg9iZvtOexSzK" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<svg id="zDGgsRqKcuKhyd2o" viewBox="0 0 1068.0119 185.7449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="a7H0nUua3kEguafB" style="transform:scale(1, 1);">
-<path id="YCG3PdMQF5jdFjFS" d="M1068.011892142767,92.87246899555555 C1068.011892142767,152.00494225637965 1034.2818811564389,185.74494012014918 992.6618860392515,185.74494012014918 L75.3499984741211,185.74494012014918 C33.72999954223633,185.74494012014918 0.0,152.00494225637965 0.0,92.87246899555555 C0.0,33.72999954223633 33.72999954223633,0.0 75.3499984741211,0.0 L992.6618860392515,0.0 C1034.271901908392,0.0 1068.011892142767,33.72999954223633 1068.011892142767,92.87246899555555" style="fill:#fbfcfc;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-<div id="EN8IqvONDGMldfOr" style="z-index:6;position:relative;">
-<div id="pLCvkesC7usAGJWj" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="Els3FRtQvtdAF3aW" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="uQmJAAMVQT2wSmgo" style="text-transform:none;color:#3d5a75;letter-spacing:0.09em;font-family:YAD_cUi3FOQ-0;line-height:1.3em;text-align:center;">
-<span id="Z7NgzhkEMjztVPuX" style="color:#3d5a75;font-weight:700;">55-4667-2850</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="tq9yUDaIGUn9TVrW" style="z-index:8;position:relative;">
-<div id="jmAZg9RbjcgElV1o" style="padding-top:86.29676967%;transform:rotate(0deg);">
-<div id="rb4wG2SfWuoci6pn" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="XYnrv2YjpCSOBkj7" style="width:100%;opacity:1.0;height:100%;">
-<div id="AaOJ7D1M8DOLNTeB" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="UsWI0AbTCUZZKeeZ" style="transform: rotate(0deg); top: -13.6997%; left: -13.9719%; width: 128.213%; position: absolute; height: 148.572%; opacity: 1;">
-<img src="./Imagenes/Logo LaptopServicio.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="XajN3zXu8HXRMHCv" style="z-index:9;position:relative;">
-<div id="zs2zIV5d0eYRqoFK" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="llhV8ySjOVNVpD1f" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-
-<!-- 
-    style="color:#3d5a75;font-family:YAD7QhG2T6o-0;line-height:1.4em;"
--->
-<p 
-    id="tnFnsM9ifi3FQM0V" 
-    style="color:#3d5a75;font-family:GatoMojado;line-height:1.4em;">
-<span id="UjLtwf7WjUxrf03T" style="color:#3d5a75;font-weight:700;">Laptop Servicio</span>
-<br>
-</p>
-<p id="QHZcKnKOkYvFvUSC" style="text-transform:none;color:#3d5a75;letter-spacing:0em;font-family:YAD7QhG2T6o-0;line-height:1.4em;">
-<span id="l0aK9ywUQ5VgPqPw" style="color:#3d5a75;">Tú Centro Técnico de Confianza</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="yYetAmo93dR5QzcU" style="z-index:7;position:relative;">
-<div id="TO4UfF08yPEUdOAw" style="padding-top:81.88405797%;transform:rotate(0deg);">
-<div id="MaS9YK2YGeDs1f4G" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="ydx5iuVcq4l5JVZc" style="width:100%;opacity:1.0;height:100%;">
-<div id="UgtcxVlWSgQRwtjr" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="gB4qbczDvr5Xzp08" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
-<img src="./Imagenes/Laptop Verde.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="A8OFOf2u8cdpOCxY" style="z-index:10;position:relative;">
-<div id="QAYzAoVQe2FbDarS" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="g7kYuTsUsLN1wJWL" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="L1YayFLJu0P4oQln" style="text-transform:none;color:#3d5a75;font-family:YAD-4Fp-fVw-0;line-height:1.04em;text-align:center;">
-<span id="uqcZG81ZK963SR38" style="color:#3d5a75;">Reparación de Equipo de Cómputo</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="gllMpVxq14Ow681k" style="z-index:2;position:relative;">
-<div id="b77WPdfjTfqKoZy5" style="padding-top:18.6121816%;transform:rotate(0deg);">
-    <div id="vG0tDxucMcTI3eTm" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="R6odtOLkEWQxHyme" viewBox="0 0 809.6848 150.7" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-        <g id="PumTYb26dUnZmWso" style="transform:scale(1, 1);">
-<path id="vtWscPgHoEziHOrb" d="M809.6847688478939,75.34999847412104 C809.6847688478939,116.95999908447256 775.9547578615658,150.69999694824207 734.3347627443783,150.69999694824207 L75.3499984741211,150.69999694824207 C33.72999954223633,150.69999694824207 0.0,116.95999908447256 0.0,75.34999847412104 C0.0,33.72999954223633 33.72999954223633,0.0 75.3499984741211,0.0 L734.3347627443783,0.0 C775.9447786135189,0.0 809.6847688478939,33.72999954223633 809.6847688478939,75.34999847412104" style="fill:#fbfcfc;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="rcdMJnYvArhsfxXo" style="z-index:3;position:relative;">
-<div id="ipWvjhuD4P19zAvm" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="hQY709MFB0lXZOTx" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="eORYiCU2OaUhrpkd" style="text-transform:none;color:#3d5a75;letter-spacing:0.09em;font-family:YAD_cUi3FOQ-0;line-height:1.3em;text-align:center;">
-<span id="ZxqTEnhDLAI8ofvT" style="color:#3d5a75;font-weight:700;">Más información</span>
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="UTIKsqSJUCYOFqRy" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-<div id="DMxy3R7PHgxATEnR" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="Xrf4uIhoKb475V0O" style="z-index:0;position:relative;">
-<div id="zzTfAiSAulwB5cNZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="I7kCjvhkzbQ53EHb" style="width:100%;opacity:1.0;height:100%;">
-<div id="ibyvWnkrnhiI9CNs" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="XI7IA8Ohs6RVeemQ" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="OunGw1ao1XvogWUW" style="z-index:16;position:relative;">
-<div id="gPDoIUp0JsrFQmag" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="RnQeQRFaZzyzYxq6" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="QYUW4a9Do9MYCmDm" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:YAD-4IprnsI-0;line-height:1.2em;direction:ltr;text-align:center;">
-<span id="d9PinWRWg88z7D2T" style="text-decoration-line:none;color:#2a6ef2;font-weight:400;font-style:normal;">Nuestros Servicios</span>
-</p>
-</div>
-</div>
-</div>
-<div id="mbF7PDD41WZ5nV5L" style="z-index:7;position:relative;">
-<div id="e2lHpnkIAvkZWGrc" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<svg id="DG1vLANh7Zd3TyHX" viewBox="0 0 114.0827 136.0128" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="BTDS3zghD4JRyHAm" style="transform:scale(1, 1);">
-<path id="h7j62Ix6WQwAANGk" d="M104.28267364644411,136.0127496001689 L9.800000190734863,136.0127496001689 C4.400000095367432,136.0127496001689 0.0,131.6127557036845 0.0,126.21274654841106 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.28268890523317,0.0 C109.68268280171755,0.0 114.08269195699098,4.400000095367432 114.08269195699098,9.800000190734863 L114.08269195699098,126.21276180720012 C114.08269195699098,131.6127557036845 109.68268280171755,136.01276485895795 104.28268890523317,136.01276485895795" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-<div id="vy4O7R57HXJ46OPU" style="z-index:15;position:relative;">
-<div id="OuXwSsCdUFZXxfQt" style="padding-top:78.39514755%;transform:rotate(0deg);">
-<div id="i5g0RAwUAi0N3ZrX" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="WgnXc0j3hHW3Y2zt" style="width:100%;opacity:1.0;height:100%;">
-<div id="zkgoGxzHyYCoPdCj" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="EeM2TRX9MHJmVvg7" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 127.559%; opacity: 1;">
-<img src="./Imagenes/Laptop Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="JVGvFC6UncJiWpad" style="z-index:9;position:relative;">
-<div id="xXYes3nVWB4sg34k" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="APEWdalY1KjVKMTA" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="mlFeg29kJDMhAYDY" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="GMsoyAHaAqk81903" style="color:#ffffff;font-weight:700;">Laptops</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="pfPFGfy5uHRJgKwi" style="z-index:8;position:relative;">
-<div id="y2T6lP4x9wYjprzD" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="whdl7FdJcalmoJjl" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="W3JcRgpaCH823LZO" style="text-transform:none;color:#ffffff;letter-spacing:0em; font-family:Telegraf; line-height:1.3em;">
-<span id="gLCN7JWZv6hAcHIN" style="color:#ffffff;">Reparación de Laptops a nivel componente, displays, memoria RAM, discos duros, etc.</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="XgK7ejOmJTPc7uJ7" style="z-index:2;position:relative;">
-<div id="pdLF20e5pm8cnAvq" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<svg id="kDaVOXn3jkl1Co6e" viewBox="0 0 114.0827 145.4672" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="EC72wybeafXDr5Xc" style="transform:scale(1, 1);">
-<path id="DkPDdSkzvQGEWqg4" d="M104.28267364644414,145.46717668350226 L9.800000190734863,145.46717668350226 C4.400000095367432,145.46717668350226 0.0,141.06718278701788 0.0,135.66717363174445 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.2826889052332,0.0 C109.68268280171758,0.0 114.08269195699101,4.400000095367432 114.08269195699101,9.800000190734863 L114.08269195699101,135.6671888905335 C114.08269195699101,141.06718278701788 109.68268280171758,145.46719194229132 104.2826889052332,145.46719194229132" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-<div id="rmhymJUbDTzqPCPi" style="z-index:5;position:relative;">
-<div id="Pdbx4QUdWNcn1gs4" style="padding-top:98.93301044%;transform:rotate(0deg);">
-<div id="Ju2kBjX9kuXZLAIb" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="nLd5xgPPkGQtVJ5N" style="width:100%;opacity:1.0;height:100%;">
-<div id="JHansXPRpzmoNVXy" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="YilvvS2KuQ9P2HTC" style="transform: rotate(0deg); top: -4.37105%; left: -17.2976%; width: 134.055%; position: absolute; height: 135.501%; opacity: 1;">
-<img src="./Imagenes/Impresora Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="l7NhhsISca4auX7s" style="z-index:4;position:relative;">
-<div id="lTjSbOvKTgXHDo8g" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="Cq0WcHXS7sXEM28T" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="jaaU72XlIEiYuaWA" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="abrKQDNDtByLsiCk" style="color:#ffffff;">Impresoras</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="E1h3RDUARf0fhsTB" style="z-index:3;position:relative;">
-<div id="CHJOj9f5JuLrDlND" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="Hk4XNIXG5xnYW0FZ" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="RkdpWceZOunoJh6B" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="tNKzpq6VoOIg30nq" style="color:#ffffff;">Reparamos todo tipo de impresoras como láser a color, láser blanco y negro e inyección de tinta.</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="xlKRzw47QRIBhLPq" style="z-index:11;position:relative;">
-<div id="z8TK5EP34odG5TMP" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<svg id="HswwF019Aug5BlUB" viewBox="0 0 114.0827 136.5479" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="yzaJflNBdzZoOnMY" style="transform:scale(1, 1);">
-<path id="PwQJoStMyxtrvtdq" d="M104.28267364644414,136.54790585016877 L9.800000190734863,136.54790585016877 C4.400000095367432,136.54790585016877 0.0,132.1479119536844 0.0,126.74790279841095 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.2826889052332,0.0 C109.68268280171758,0.0 114.08269195699101,4.400000095367432 114.08269195699101,9.800000190734863 L114.08269195699101,126.74791805720001 C114.08269195699101,132.1479119536844 109.68268280171758,136.54792110895784 104.2826889052332,136.54792110895784" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-<div id="JG5hOJNA6V1PNK3T" style="z-index:14;position:relative;">
-<div id="oGdgGitW0uCSbByZ" style="padding-top:90.37663436%;transform:rotate(0deg);">
-<div id="gJet3VJqZcx7vdry" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="Vy0gzO54iFCYKei5" style="width:100%;opacity:1.0;height:100%;">
-<div id="HsKcxCmRqYTSjsvU" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="xvOZkd2aLudM01Mq" style="transform: rotate(0deg); top: -11.136%; left: -19.6549%; width: 137.976%; position: absolute; height: 152.668%; opacity: 1;">
-<img src="./Imagenes/Tele Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="MAVoqbb2K6iLRW0L" style="z-index:13;position:relative;">
-<div id="Zq9k60DCj7ShE25I" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="MV1aSB62vj7LprQm" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="pywtt9kyHf7qIARS" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="NFDFzS6Vnrccsol1" style="color:#ffffff;font-weight:700;">Pantallas de T.V.</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="Smj1sBTlwLr3Ukn0" style="z-index:12;position:relative;">
-<div id="lOy4OASXrHRWobso" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="ae3n7rhOkQorjgvM" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="EbV8DCAbWB8iwwu5" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="YCo0bWbDe28gczwC" style="color:#ffffff;">Reparación a nivel componente, cambio de display y cambio de LED's.</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="pc0mWd4YP0ITLwvD" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-<div id="o3q617qvr2bMI9M7" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="EBXVAoZS2aYlXalb" style="z-index:0;position:relative;">
-<div id="QlcrzSNFYKoPxkpk" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="o4JDGu0DsKvCa9O3" style="width:100%;opacity:1.0;height:100%;">
-<div id="VdEMADdzvkMEncyd" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="mzbVMSPPaI0cGSuQ" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="ymDnbbBWd3oD9twn" style="z-index:1;position:relative;">
-<div id="yOZrgGRKNMOOUSos" style="padding-top:66.7%;transform:rotate(0deg);">
-<div id="FwFkQ8vwOyb9cc1I" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="SLjIcOb9dF3spCIb" style="width:100%;opacity:1.0;height:100%;">
-<div id="eEJUyIiG6u64tppf" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="nJBNZYbaeopxVtlt" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
-<img src="./Imagenes/Chip.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="Rsn7xWYpCTtICYyD" style="z-index:3;position:relative;">
-<div id="WIffEc56hB7sfGMe" style="padding-top:100%;transform:rotate(0deg);">
-<div id="zCq2O3vLAP18KA2g" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="yvF5oLjGXoZ9iwAD" viewBox="0 0 64.0 64.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="pUxTyoaBcIvWCYbs" style="transform:scale(1, 1);">
-<path id="DDw49IxKmHvLy9Gk" d="M0.0,0.0 L64.0,0.0 L64.0,64.0 L0.0,64.0 L0.0,0.0" style="fill:#3d5a75;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="diCqkqwk3xO8aboE" style="z-index:2;position:relative;">
-<div id="gfhJE2rzEf3MKL3F" style="padding-top:100%;transform:rotate(0deg);">
-<div id="dckUie95RNfE4hrv" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="L0ZVc1XZQyRuvi8k" viewBox="0 0 183.4231 183.4231" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="ZSq5q6VRoF4q9ecr" style="transform:scale(1, 1);">
-<g id="VbnACcjll6rmcqiL" style="clip-path:url(#GMRXgIMYOdesNUth);">
-<clippath id="GMRXgIMYOdesNUth">
-<path d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z">
-</path>
-</clippath>
-<path id="sBrkTxFWmAD0P6ZR" d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z" style="fill:#002942;opacity:1.0;">
-</path>
-<path id="o6iabZhdpaLRCdgI" d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z" style="fill:none;stroke:#ffffff;stroke-linecap:butt;vector-effect:non-scaling-stroke;">
-</path>
-</g>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="INZD1mb1GG9YiNee" style="z-index:5;position:relative;">
-<div id="LLThrBTocIVys7CC" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="fcxKwK2XBgVilu4w" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="cjdNgKs70F8lt6aF" style="margin-left:0em;text-transform:none;color:#42bce8;letter-spacing:0em;font-family:YAD-4IprnsI-0;line-height:1.2em;direction:ltr;">
-<span id="ZgsMFG5L02XsijVE" style="color:#42bce8;">Sobre Nosotros</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="ewXztDCSsvYTy1ym" style="z-index:6;position:relative;">
-<div id="IbxHEVXlarpjC3Hj" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="WcfayTJa8YGjzD7k" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="i4N0838vnfWxPvHf" style="color:#ffffff;font-family:YAD-4Fp-fVw-0;line-height:1.59em;">
-<span id="Ucf132hGquZ84PRG" style="color:#ffffff;">En </span>
-<span id="mm8fDjBDKLokBmDC" style="color:#ffffff;font-weight:700;">Laptop Servicio</span>
-<span id="UcIHz0IQYJeeSETb" style="color:#ffffff;"> contamos con amplia experiencia en el ramo de reparación y </span>
-<span id="JV2VQqy3itdW7h1x" style="color:#ffffff;">mantenimiento de equipo de cómputo.</span>
-<span id="DqZ0NsWMcIzhh2Ho" style="color:#ffffff;white-space:pre-wrap;">  </span>
-<span id="WV8hl1kWcH3NhnnJ" style="color:#ffffff;">Nuestros técnicos cuentan con especialidad en monitores, CPU’s, laptops, impresoras, No-Break’s, cableado UTP.</span>
-<br>
-</p>
-<p id="rLgqBrOdFSbFcHyh" style="color:#ffffff;white-space:pre;font-family:YAD-4Fp-fVw-0;line-height:1.59em;">
-<br>
-</p>
-<p id="JjPaKc0HIBObDWC5" style="color:#ffffff;font-family:YAD-4Fp-fVw-0;line-height:1.59em;">
-<span id="frWFI4CwVPMDJPwV" style="color:#ffffff;">Hemos sido C</span>
-<span id="VEtRKucSSQzcNFtX" style="color:#ffffff;">entro de Servicio para un</span>
-<br>
-</p>
-<p id="RwgLsNh8bdIYlcS1" style="color:#ffffff;font-family:YAD-4Fp-fVw-0;line-height:1.59em;">
-<span id="t53849N8LMGeHP29" style="color:#ffffff;">importante fabricante de computadores nacionales.</span>
-<br>
-</p>
-<p id="IFeOs9INGAB7IGTT" style="color:#ffffff;white-space:pre;font-family:YAD-4Fp-fVw-0;line-height:1.59em;">
-<br>
-</p>
-<p id="Ht0NeEQYNkiOuhKp" style="text-transform:none;color:#ffffff;font-family:YAD-4Fp-fVw-0;line-height:1.59em;direction:ltr;">
-<span id="Fx7C5d7hKlVKrf0I" style="color:#ffffff;">Mantenemos un alto estándar en el servio </span>
-<span id="jUbviE9pe18MCrpx" style="color:#ffffff;">en atención a clientes nivel usuarios finales, brindando un servicio directo, personalizado y amable .</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="dhb7xxEYkeuqERSn" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-<div id="heJ0WgB0MBKHy7no" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="IwRXkOrmKc86j6Pt" style="z-index:0;position:relative;">
-<div id="A9wutofmlew1jThr" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="ZIHFVZBLqKG7hciC" style="width:100%;opacity:1.0;height:100%;">
-<div id="fWTGieZTkCbZtFI1" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="UOsWzBSh6v9FNqws" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="ocD9N2XuVEIzHzLr" style="z-index:2;position:relative;">
-<div id="Q3UYsP9QgTvlV9zc" style="padding-top:34.13553795%;transform:rotate(0deg);">
-<div id="Bd8JVNw9U2kEuiTg" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="q0hmFaP36EJ4GMfC" viewBox="0 0 93.7439 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="AFzbMaJu6Y5tU4f8" style="transform:scale(1, 1);">
-<path id="p4lXOwSb3NeCGn1K" d="M9.99999518,0.0 L83.74394709,0.0 C89.26679192,0.0 93.74394226,4.4771503500000005 93.74394226,9.99999518 L93.74394226,22.00000482 C93.74394226,27.522849660000002 89.26679192,31.99999999 83.74394709,32.0 L9.99999518,32.0 C4.47715034,32.0 0.0,27.52284965 0.0,22.00000482 L0.0,9.99999518 C0.0,4.47715034 4.4771503500000005,0.0 9.99999518,0.0 Z" style="fill:#ff814f;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="c3DnUorwhXE7yeCW" style="z-index:3;position:relative;">
-<div id="tAZ7VirM7nqZzC0h" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="DtVGRroEI0XBr43O" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="fqlOPyyBtk03FuG6" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;text-align:center;">
-<span id="yXXGDO4LX3oWcHPG" style="color:#ffffff;">Llámanos</span>
-<span id="KyTJKuaVzPWd6RG5" style="color:#ffffff;white-space:pre-wrap;">  </span>
-<span id="SE7pLuYz2LkvP7La" style="color:#ffffff;">a nuestro número</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="ONDYFR5SVyehheDt" style="z-index:5;position:relative;">
-<div id="DFtAA2nv019Q6gdg" style="padding-top:34.13553795%;transform:rotate(0deg);">
-<div id="OtdwXSxvmq21kERU" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="pguYJNQ6HRfuAzps" viewBox="0 0 93.7439 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="c9gIYY0E8NS641qv" style="transform:scale(1, 1);">
-<path id="xaG503u9mia25D9W" d="M9.99999518,0.0 L83.74394709,0.0 C89.26679192,0.0 93.74394226,4.4771503500000005 93.74394226,9.99999518 L93.74394226,22.00000482 C93.74394226,27.522849660000002 89.26679192,31.99999999 83.74394709,32.0 L9.99999518,32.0 C4.47715034,32.0 0.0,27.52284965 0.0,22.00000482 L0.0,9.99999518 C0.0,4.47715034 4.4771503500000005,0.0 9.99999518,0.0 Z" style="fill:#ff814f;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="ShFs7ClWP9eidQg4" style="z-index:6;position:relative;">
-<div id="BNDNIv6EVtaxHOWW" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="sHeRaTk4fsZpRMja" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="tJV6ofESi7CuU6aI" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;text-align:center;">
-<span id="hWLCErzjzs5jeyxf" style="color:#ffffff;">Cotiza tu servicio o reparación</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="RT6AT62vy6HnZGil" style="z-index:8;position:relative;">
-<div id="hjGP7oXmsTGfaDkt" style="padding-top:21.55507053%;transform:rotate(0deg);">
-<div id="hWALUQtgv5wTWw8a" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="vFsfpANV2laLLZtb" viewBox="0 0 148.4569 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="W9TYQ98ilv9Dm0N1" style="transform:scale(1, 1);">
-<path id="Q3B5y7C9VnCE68m7" d="M9.99999672,0.0 L138.45695824,0.0 C141.10912227,0.0 143.65266056000002,1.05356806 145.52802373,2.92893123 147.40338690000002,4.8042944 148.45695496,7.34783269 148.45695496,9.99999672 L148.45695496,22.00000328 C148.45695496,27.522848970000002 143.97980393,32.0 138.45695824,32.0 L9.99999672,32.0 C7.34783269,32.0 4.8042944,30.94643194 2.92893123,29.07106877 1.05356806,27.1957056 0.0,24.65216731 0.0,22.00000328 L0.0,9.99999672 C0.0,7.34783269 1.05356806,4.8042944 2.92893123,2.92893123 4.8042944,1.05356806 7.34783269,0.0 9.99999672,0.0 Z" style="fill:#ff814f;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="KhbLfTL1RM15yTZd" style="z-index:9;position:relative;">
-<div id="Pqwkic7qDnaHLF06" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="yLf7I5p9Lec8mKj5" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="xCaTpYh6AZJ6aZ7F" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;text-align:center;">
-<span id="ILiWSjezUeLH6aVD" style="color:#ffffff;">Acuerda un punto para la recolección de tu equipo</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="g43GVy3pvxaQ0lkl" style="z-index:11;position:relative;">
-<div id="wufS9Px5CPtrzCCs" style="padding-top:100%;transform:rotate(0deg);">
-<div id="DFWZ6P0YqWxEYou5" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<svg id="ibvhGmYGeu8A2gWj" viewBox="0 0 1000.0 1000.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="Th5bHT6RUUbAijJO" style="transform:scale(1, 1);">
-<g id="wqXWa94rcPzxD5QJ" style="clip-path:url(#OlT9LPV0PSo8IVVE);">
-<clippath id="OlT9LPV0PSo8IVVE">
-<path d="M798.5,141.39999389648438 C704.8000030517578,82.39999389648438 679.6999969482422,79.69999313354492 569.6000061035156,67.49999237060547 C317.20001220703125,70.49999237060547 112.60000610351562,216.29999542236328 33.399993896484375,455.99999237060547 C6.300000190734863,538.0 -0.8999999761581421,629.7000122070312 30.899999618530273,710.0 C72.69999885559082,815.5 176.59999656677246,887.0 286.3999996185303,915.8000030517578 C396.2000026702881,944.7000026702881 517.0999965667725,984.4000015258789 629.699987411499,970.7000045776367 C717.4999904632568,960.0000047683716 805.199987411499,895.8000030517578 870.8999843597412,836.5999984741211 C914.4999828338623,797.2999992370605 941.699987411499,742.7999954223633 959.8999843597412,686.9999923706055 C1023.5,492.79998779296875 971.4000244140625,250.39999389648438 798.5,141.39999389648438">
-</path>
-</clippath>
-<g id="dvwIlIL70efUDPjh" style="transform:scale(1, 1);transform-origin:511.5px 526px;">
-<image id="xRY6Mt2aRHfRDd6C" href="Imagenes/Telefonista.png" width="1358.04749011px" height="905.99024547px" preserveAspectRatio="none" style="transform:translate(-181.05890622px, 67.5px) rotate(0deg);transform-origin:679.02374506px 452.99512274px;opacity:1.0;">
-</image>
-</g>
-</g>
-</g>
-</svg>
-</div>
-</div>
-</div>
-<div id="c8lVmT14iNoToNJq" style="z-index:12;position:relative;">
-<div id="TZYmzNWrE1ISHp1l" style="padding-top:74%;transform:rotate(90deg);">
-<div id="k935cg72SnxkQ7qw" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="P5Cpm4RmABIThGEX" style="width:100%;opacity:1.0;height:100%;">
-<div id="zykyxk0RWhBXFugc" style="transform:scale(-1, -1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="nDfyYHRbyQNXjfzX" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Flecha Naranja.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="BZyAidsbk9N1oxPY" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-<div id="ZfTHqTDqDLPhIh2q" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="WmwZ7apAU82hbHuZ" style="z-index:0;position:relative;">
-<div id="sYnnXNAKjoMPiq7f" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="YnTmKYbo0BM4JIcG" style="width:100%;opacity:1.0;height:100%;">
-<div id="NoWPX4lKVu56Kf2w" style="background-color:#ffffff;transform:scale(-1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-<div id="qjCEEZnlXkjh3d8z" style="transform:rotate(0deg);top:0%;left:-9.74008934%;width:119.58287124%;position:absolute;height:119.64126132%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Fondo Azul.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="E6ZNme1VFKnFtdOX" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="lWO07Uz3JWPJoZI3" style="z-index:1;position:relative;">
-<div id="h5gSJePRHV0RA4Ej" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="ZXmxV1lUpAnfiWFQ" style="width:100%;opacity:1.0;height:100%;">
-<div id="rXMCSihhUhoncqrD" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="WBWjHX1w9orCFvnh" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Tecnico Reparando.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="VYrbIMGkpMAYPGv0" style="z-index:2;position:relative;">
-<div id="N0CFDtlzZ7dFrWOA" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="vXEWz7DqPx5Jgrc1" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="BzLbtzUrUcphNtrx" style="margin-left:0em;text-transform:none;text-shadow:0.06629126em 0.06629126em 0.05125em rgba(0, 0, 0, 0.900000);color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.4em;direction:ltr;text-align:center;">
-<span id="MfXF5tzognlc5CgH" style="text-decoration-line:none;color:#ffffff;font-weight:700;font-style:normal;">La tecnología no tiene que ver los últimos dispositivos o aplicaciones. Tiene que ver con lo que estas cosas hacen por las personas. Se trata de reunir a las personas y hacer que vivan</span>
-</p>
-<p id="doUrJlfVbQjR59x5" style="margin-left:0em;text-transform:none;text-shadow:0.06629126em 0.06629126em 0.05125em rgba(0, 0, 0, 0.900000);color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.4em;direction:ltr;text-align:center;">
-<span id="krjB8LAcIdMcFmtR" style="text-decoration-line:none;color:#ffffff;font-weight:700;font-style:normal;">mejores vidas.</span>
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ooeL56KcFZC1Ml9W" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
-<div id="SQK23RuSZ6HCK3b8" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
-<div id="sdiEf6K2g5Z78frc" style="z-index:0;position:relative;">
-<div id="qARgXfE6qobu2vNx" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="kZiF0gzNQSfwGGJc" style="width:100%;opacity:1.0;height:100%;">
-<div id="TMQz4DkB7X6Qfr4j" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="uNRq0kSF8PnHwtz9" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
-<div id="AAuB2qszhLGUAjwA" style="z-index:6;position:relative;pointer-events:none;">
-<div id="sC2FCDY3nHZRwGe1" style="padding-top:100.73260073%;transform:rotate(0deg);">
-<div id="uLT1piDGW3NDawEZ" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="Oeq58Xx8KLLPhXAd" style="width:100%;opacity:0.25;height:100%;">
-<div id="zxr3rXm07Tluh96g" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="KETQYUh8l9Ujrqdv" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Chip 2.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="VppkH0qvNrQz3kV3" style="z-index:5;position:relative;">
-<div id="b59yVT7mSDXVAx60" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="cUCVI0tsAGnN3kWn" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
-<p id="Df6uLSJVHKLxfokG" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:YAD-4IprnsI-0;line-height:1.2em;direction:ltr;">
-<span id="IYrhrPu919pILnH0" style="text-decoration-line:none;color:#2a6ef2;font-weight:400;font-style:normal;">Comunícate con nosotros</span>
-</p>
-</div>
-</div>
-</div>
-<div id="bLU2WJEv0PZNuTWl" style="z-index:8;position:relative;">
-<div id="UOlIDxd2fFQlj04U" style="padding-top:100%;transform:rotate(0deg);">
-<div id="rT71aXDUojDIEjeJ" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-
-<a id="ohCTp1ri5GiRlDyQ" 
-target="_blank" 
-rel="noopener" 
-href="https://www.instagram.com/laptop_servicio/" 
-style="pointer-events:all;">
-<div id="Y26CLu5UqaYyUurZ" style="width:100%;opacity:1.0;height:100%;">
-<div id="d5UeOpMqBWT9MSd7" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="HaTvTYfnGQZxQTQA" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Logo Instagram.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-<div id="XzSo5QzIF6mn6IJ0" style="z-index:13;position:relative;">
-<div id="TmELAl0JfDE0qXBW" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="UUmdBGeclSgR1KbX" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="C9845GIMIVLdcD0L" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="sV6TcSbUHZZqGf0x" style="color:#000000;">instagram</span>
-</p>
-</div>
-</div>
-</div>
-<div id="VP0x2GrPW5lL9n2W" style="z-index:12;position:relative;">
-<div id="Njcpt5VbHnvB9UI1" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="AdauvVIGVFsdpQuU" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="mGu53CfsLsfd9ZXu" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="CalJNZZtYRcR4za4" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Dirección de correo electrónico</span>
-</p>
-</div>
-</div>
-</div>
-<div id="U8t2CST4NDVwfRTo" style="z-index:11;position:relative;">
-<div id="Tq5rYcatEpTWUYhT" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="M9y5OV9JaoeRHMjH" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="HzhbITANbJHTTRk7" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="hUUatrCdfbMqyQ5X" style="color:#000000;">contacto@laptopservicio.com</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="JM6QkxAulhdhmCCY" style="z-index:16;position:relative;">
-<div id="TTPGNc2f2XCiPY31" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="jdDoC67x84kuD9To" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="swfy2vrto9RpWJIL" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="fJTehgxBjDfJAFrw" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Número telefónico</span>
-</p>
-</div>
-</div>
-</div>
-<div id="iuCCrxadYdY0D49R" style="z-index:15;position:relative;">
-<div id="NOrZGWrjlFIbiU9C" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="nqk67RfSVcpcmdel" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="hb7g2Pjg13lsjnjJ" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">           
-<span id="dIJUUiRte7UIlvjj" style="text-decoration-line:none;color:#000000;font-weight:400;font-style:normal;">(55) 4667 2850</span>
-</p>
-</div>
-</div>
-</div>
-<div id="uFaVZRhhwjCMpPQk" style="z-index:1;position:relative;">
-<div id="to8NsDPOpUFpMiBk" style="padding-top:31.48498102%;transform:rotate(0deg);">
-<div id="xEMSeqvqBOnkAjnU" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="hwoDX6RwGvNkMs1U" style="width:100%;opacity:1.0;height:100%;">
-<div id="YOBm5zb54iqcnhPs" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="qZUTg7pvEHiRC3hX" style="transform:rotate(0deg);top:-2.35037173%;left:0%;width:100%;position:absolute;height:104.70074345%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Servicios.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="MygVLseB9Ispqsix" style="z-index:4;position:relative;">
-<div id="IPuJdrv4QJQ2x8os" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="F6oPTjWf1P2OJlFR" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="P0i8TRM7LszGFkxx" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:YAD-4LlVTw4-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="Y1kT7vI8wydeqXil" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Dirección postal</span>
-</p>
-</div>
-</div>
-</div>
-<div id="m8CDj6ryaJ7ZWylw" style="z-index:3;position:relative;">
-<div id="PnuCZpIvgfYvfQ4T" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="v2iexBJ1AxtJmTFc" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="dDdOgp7Af6IAW5pz" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="uBbv10CcOcSFB6EC" style="color:#000000;">Ote. 108 #33, Iztacalco, Ciuad de México</span>
-<span id="UGFwNCExzd1Ri4o8" style="text-decoration-line:none;color:#000000;font-weight:400;font-style:normal;">, México 08030</span>
-</p>
-</div>
-</div>
-</div>
-<div id="AOV98rUReYp3cXDG" style="z-index:7;position:relative;">
-<div id="Qfua6xvtwVBGYszM" style="padding-top:100%;transform:rotate(0deg);">
-<div id="ioLtdhnDLhIzgch0" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
-<div id="rFVrJwQk4lgXRdI4" style="width:100%;opacity:0.2;height:100%;">
-<div id="q5S21N5taQCt1h2G" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
-<div id="U5rEtWcTn51qCXE4" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-<img src="./Imagenes/Chip1.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="fLwWUXQ3DH6WO7k8" style="z-index:9;position:relative;">
-<div id="lsaTkrzMxVp5nRTZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<svg id="mb3ivK5wYijoMwFv" viewBox="0 0 379.4444 9.2416" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="sm3oOCuY0EIAD4s1" style="transform:scale(1, 1);">
-<path id="vb1WfgASMFwwdOpU" d="M0.0,0.0 L379.4444444444445,0.0 L379.4444444444445,9.24158612241456 L0.0,9.24158612241456 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-<svg id="Wv4oNP67ngb1bNTV" viewBox="0 0 266.6667 15.9449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="BfeWsBtaBFGvRTz6" style="transform:scale(1, 1);">
-<path id="GFLXNT7pGuxJeZHI" d="M0.0,0.0 L266.66666666666674,0.0 L266.66666666666674,15.944865283429465 L0.0,15.944865283429465 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-<svg id="bAI2RV8fhLUtXWZ5" viewBox="0 0 195.5556 15.9449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="VzQPTCZh29GpKxM0" style="transform:scale(1, 1);">
-<path id="TY18L8bOGbsXxI0j" d="M0.0,0.0 L195.5555555555556,0.0 L195.5555555555556,15.94486528342945 L0.0,15.94486528342945 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-<svg id="lOoHIObY0CXa1zI1" viewBox="0 0 124.4444 25.2282" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="SC5Mi23UJwoyQ1vm" style="transform:scale(1, 1);">
-<path id="y1ZyqlOEuVJsrzI5" d="M0.0,0.0 L124.44444444444446,0.0 L124.44444444444446,25.22815270149603 L0.0,25.22815270149603 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-<svg id="DrUkOEs4mA6zxVMO" viewBox="0 0 95.2778 23.958" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
-<g id="twYsww65CbBF2lkU" style="transform:scale(1, 1);">
-<path id="kgKIJpuATZVEVY2n" d="M0.0,0.0 L95.2777777777778,0.0 L95.2777777777778,23.957956420920254 L0.0,23.957956420920254 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
-</path>
-</g>
-</svg>
-</div>
-</div>
-<div id="DcfkD19SuIQpBavc" style="z-index:17;position:relative;">
-<div id="ALp5Z03vYPk8IYnL" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="mbfC9azX7gfrxqxX" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="aUPbBQOQLBj0ZjCe" style="margin-left:0em;text-transform:none;text-shadow:0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:left;">
-<span id="pWw7MSJtX42qJVGj" style="color:#ffffff;">Desarrollado por: maryana_85@hotmail.com</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-<div id="YoyxVcs926hwlBQV" style="z-index:18;position:relative;">
-<div id="bnWiwoc9b0oB1hIS" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
-<div id="tcm0QVOldQgsXFRB" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
-<p id="ov9BDVsSQG4Y6Un8" style="margin-left:0em;text-transform:none;text-shadow:0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);color:#ffffff;letter-spacing:0em;font-family:YAD-4Fp-fVw-0;line-height:1.3em;direction:ltr;text-align:right;">
-<span id="Z9VSqRhscGuU2JcY" style="color:#ffffff;">Enero 2023</span>
-<br>
-</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<script src="./Imagenes/73ad2651535b7ecadd366d5fa045dc32c1cdb8fc38f8243601b62b64f4123420.js.descarga" async="" nonce="">
-</script>
-</div>
-</body>
-<div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box white; height: 4259px; width: 1259px;">
-</div>
-<div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 4259px; width: 1259px;">
-</div>
-</html>
+        html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
+         html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style>
+        
+         <style id="cyebody">html.cye-enabled.cye-lm body{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+         <style id="cyediv">html.cye-enabled.cye-lm div{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+         <style id="cyetable">html.cye-enabled.cye-lm th{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm td{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+         <style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm textarea{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+         <style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+        <style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+        <style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
+        
+         <noscript>  
+            <style>    .animated {      animation-play-state: running !important;    }    @keyframes pulse {}  </style>
+        </noscript>
+        
+        <script nonce="">!function(){"use strict";function n(n,t){let e=(null==t?void 0:t.runOnLoad)?void 0:document.documentElement.clientWidth,o=(null==t?void 0:t.runOnLoad)?void 0:window.innerHeight;const r=()=>{const r={runOnLoad:!1,runOnWidthChange:!0,runOnHeightChange:!1,...t},i=document.documentElement.clientWidth,d=window.innerHeight,c=o!==d;(e!==i&&r.runOnWidthChange||c&&r.runOnHeightChange)&&n(),e=i,o=d},i=function(n,t){let e;return(...o)=>{clearTimeout(e),e=setTimeout((()=>{n(...o)}),t)}}(r,100);window.addEventListener("resize",i),(null==t?void 0:t.runOnLoad)&&("loading"===document.readyState?window.addEventListener("DOMContentLoaded",r):r())}function t(n,t,e=.001){return Math.abs(n-t)<e}function e(n,t){return window.getComputedStyle(n).getPropertyValue(t)}function o(n,t,e){n.style.setProperty(t,e)}function r(n,t){const o=document.createElement("div");o.style.setProperty(n,t),document.body.append(o);const r=e(o,n);return o.remove(),r}function i(){const i=function(){const n=parseFloat(r("font-size","0.1px"));return n>1?n:0}(),d=function(n){const t=2*Math.max(n,1);return t/parseFloat(r("font-size",`${t}px`))}(i);if(function(t){if(0===t)return;o(document.documentElement,"--minfs",`${t}px`),n((()=>{const n=100*t,{clientWidth:e}=document.documentElement;o(document.documentElement,"--rzf",n>e?(e/n).toPrecision(4):null)}),{runOnLoad:!0})}(i*Math.max(1,d)),t(d,1))return;const c=t(parseFloat(e(document.documentElement,"font-size")),parseFloat(r("grid-template-columns","1rem")));o(document.documentElement,c?"--rfso":"--bfso",d.toPrecision(4))}function d(){document.querySelectorAll("img, image, video, svg").forEach((n=>n.addEventListener("contextmenu",(n=>n.preventDefault()))))}function c(){const n=window.innerWidth-document.documentElement.clientWidth;var t,e,o;t=document.documentElement,e="--sbw",o=n>=0?`${n}px`:null,t.style.setProperty(e,o)}var u;const a="undefined"!=typeof window?null===(u=window.navigator)||void 0===u?void 0:u.userAgent:void 0;const m=!(!a||(l=a,!l.match(/AppleWebKit\//)||l.match(/Chrome\//)||l.match(/Chromium\//)));var l;function s(n){const t=Array.from(n.children);t.forEach(((n,e)=>{if(n.hasAttribute("data-foreign-object-container"))n.style.transformOrigin="",n.style.transform="";else{const o=document.createElement("div");o.setAttribute("data-foreign-object-container",""),o.style.willChange="transform",n.insertAdjacentElement("beforebegin",o),n.remove(),o.append(n),t[e]=o}}));const e=n.getScreenCTM();if(!e)return;const{a:o,b:r,c:i,d:d}=e;t.forEach((n=>{if(!n.hasAttribute("data-foreign-object-container"))return;const{style:t}=n;t.transformOrigin="0px 0px",t.transform=`matrix(${o}, ${r}, ${i}, ${d}, 0, 0)`}))}let f;function h(){f||(f=Array.from(document.querySelectorAll("foreignObject")).filter((n=>0===n.getBoundingClientRect().width))),Array.from(f).forEach(s)}[function(){"loading"===document.readyState?window.addEventListener("DOMContentLoaded",i):i()},function(){n(c,{runOnLoad:!0})},function(){m&&n(h,{runOnLoad:!0})},function(){"loading"===document.readyState?window.addEventListener("DOMContentLoaded",d):d()}].forEach((n=>n()))}();
+            </script>
+        </head>
+        <div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 1980px; height: 1080px; z-index: -2147483648;">
+        </div>
+        <body style="">
+        <div id="root">
+            <section id="jWxV1jBWKQmn1oBj" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;position:relative;align-items:center;">
+        <div id="rgKH5988V6U9xzW1" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="BKyS49Z2c1Y0mq0e" style="z-index:0;position:relative;">
+        <div id="w8BCckSiQrxFVZyZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="uwzgY8YgGgdFDIxw" style="width:100%;opacity:1.0;height:100%;">
+        <div id="kyehIJgbL8eRvDbY" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        <div id="a7W6gXXdEEhia9fH" style="transform: rotate(0deg); top: -0.0244141%; left: 0%; width: 110.464%; position: absolute; height: 110.518%; opacity: 1;">
+        <img src="./Imagenes/Fondo Azul Degradado.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="B8Q9orsegBNnPpOL" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="a4j9h8XFPYlRdL9q" style="z-index:5;position:relative;">
+        <div id="AWKzg9iZvtOexSzK" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <svg id="zDGgsRqKcuKhyd2o" viewBox="0 0 1068.0119 185.7449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="a7H0nUua3kEguafB" style="transform:scale(1, 1);">
+        <path id="YCG3PdMQF5jdFjFS" d="M1068.011892142767,92.87246899555555 C1068.011892142767,152.00494225637965 1034.2818811564389,185.74494012014918 992.6618860392515,185.74494012014918 L75.3499984741211,185.74494012014918 C33.72999954223633,185.74494012014918 0.0,152.00494225637965 0.0,92.87246899555555 C0.0,33.72999954223633 33.72999954223633,0.0 75.3499984741211,0.0 L992.6618860392515,0.0 C1034.271901908392,0.0 1068.011892142767,33.72999954223633 1068.011892142767,92.87246899555555" style="fill:#fbfcfc;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        <div id="EN8IqvONDGMldfOr" style="z-index:6;position:relative;">
+        <div id="pLCvkesC7usAGJWj" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="Els3FRtQvtdAF3aW" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="uQmJAAMVQT2wSmgo" style="text-transform:none;color:#3d5a75;letter-spacing:0.09em;font-family:OpenSauce;line-height:1.3em;text-align:center;">
+        <span id="Z7NgzhkEMjztVPuX" style="color:#3d5a75;font-weight:700;">55-4667-2850</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="tq9yUDaIGUn9TVrW" style="z-index:8;position:relative;">
+        <div id="jmAZg9RbjcgElV1o" style="padding-top:86.29676967%;transform:rotate(0deg);">
+        <div id="rb4wG2SfWuoci6pn" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="XYnrv2YjpCSOBkj7" style="width:100%;opacity:1.0;height:100%;">
+        <div id="AaOJ7D1M8DOLNTeB" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="UsWI0AbTCUZZKeeZ" style="transform: rotate(0deg); top: -13.6997%; left: -13.9719%; width: 128.213%; position: absolute; height: 148.572%; opacity: 1;">
+        <img src="./Imagenes/Logo LaptopServicio.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="XajN3zXu8HXRMHCv" style="z-index:9;position:relative;">
+        <div id="zs2zIV5d0eYRqoFK" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="llhV8ySjOVNVpD1f" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        
+        <!-- 
+            style="color:#3d5a75;font-family:OpenSans;line-height:1.4em;"
+        -->
+        <p 
+            id="tnFnsM9ifi3FQM0V" 
+            style="color:#3d5a75;font-family:OpenSans;line-height:1.4em;">
+        <span id="UjLtwf7WjUxrf03T" style="color:#3d5a75;font-weight:700;">Laptop Servicio</span>
+        <br>
+        </p>
+        <p id="QHZcKnKOkYvFvUSC" style="text-transform:none;color:#3d5a75;letter-spacing:0em;font-family:OpenSans;line-height:1.4em;">
+        <span id="l0aK9ywUQ5VgPqPw" style="color:#3d5a75;">Tú Centro Técnico de Confianza</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="yYetAmo93dR5QzcU" style="z-index:7;position:relative;">
+        <div id="TO4UfF08yPEUdOAw" style="padding-top:81.88405797%;transform:rotate(0deg);">
+        <div id="MaS9YK2YGeDs1f4G" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="ydx5iuVcq4l5JVZc" style="width:100%;opacity:1.0;height:100%;">
+        <div id="UgtcxVlWSgQRwtjr" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="gB4qbczDvr5Xzp08" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
+        <img src="./Imagenes/Laptop Verde.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="A8OFOf2u8cdpOCxY" style="z-index:10;position:relative;">
+        <div id="QAYzAoVQe2FbDarS" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="g7kYuTsUsLN1wJWL" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="L1YayFLJu0P4oQln" style="text-transform:none;color:#3d5a75;font-family:Telegraf;line-height:1.04em;text-align:center;">
+        <span id="uqcZG81ZK963SR38" style="color:#3d5a75;">Reparación de Equipo de Cómputo</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="gllMpVxq14Ow681k" style="z-index:2;position:relative;">
+        <div id="b77WPdfjTfqKoZy5" style="padding-top:18.6121816%;transform:rotate(0deg);">
+            <div id="vG0tDxucMcTI3eTm" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="R6odtOLkEWQxHyme" viewBox="0 0 809.6848 150.7" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+                <g id="PumTYb26dUnZmWso" style="transform:scale(1, 1);">
+        <path id="vtWscPgHoEziHOrb" d="M809.6847688478939,75.34999847412104 C809.6847688478939,116.95999908447256 775.9547578615658,150.69999694824207 734.3347627443783,150.69999694824207 L75.3499984741211,150.69999694824207 C33.72999954223633,150.69999694824207 0.0,116.95999908447256 0.0,75.34999847412104 C0.0,33.72999954223633 33.72999954223633,0.0 75.3499984741211,0.0 L734.3347627443783,0.0 C775.9447786135189,0.0 809.6847688478939,33.72999954223633 809.6847688478939,75.34999847412104" style="fill:#fbfcfc;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="rcdMJnYvArhsfxXo" style="z-index:3;position:relative;">
+        <div id="ipWvjhuD4P19zAvm" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="hQY709MFB0lXZOTx" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="eORYiCU2OaUhrpkd" style="text-transform:none;color:#3d5a75;letter-spacing:0.09em;font-family:OpenSauce;line-height:1.3em;text-align:center;">
+        <span id="ZxqTEnhDLAI8ofvT" style="color:#3d5a75;font-weight:700;">Más información</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section id="UTIKsqSJUCYOFqRy" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
+        <div id="DMxy3R7PHgxATEnR" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="Xrf4uIhoKb475V0O" style="z-index:0;position:relative;">
+        <div id="zzTfAiSAulwB5cNZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="I7kCjvhkzbQ53EHb" style="width:100%;opacity:1.0;height:100%;">
+        <div id="ibyvWnkrnhiI9CNs" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="XI7IA8Ohs6RVeemQ" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="OunGw1ao1XvogWUW" style="z-index:16;position:relative;">
+        <div id="gPDoIUp0JsrFQmag" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="RnQeQRFaZzyzYxq6" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="QYUW4a9Do9MYCmDm" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:Grotesk;line-height:1.2em;direction:ltr;text-align:center;">
+        <span id="d9PinWRWg88z7D2T" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Nuestros Servicios</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="mbF7PDD41WZ5nV5L" style="z-index:7;position:relative;">
+        <div id="e2lHpnkIAvkZWGrc" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <svg id="DG1vLANh7Zd3TyHX" viewBox="0 0 114.0827 136.0128" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="BTDS3zghD4JRyHAm" style="transform:scale(1, 1);">
+        <path id="h7j62Ix6WQwAANGk" d="M104.28267364644411,136.0127496001689 L9.800000190734863,136.0127496001689 C4.400000095367432,136.0127496001689 0.0,131.6127557036845 0.0,126.21274654841106 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.28268890523317,0.0 C109.68268280171755,0.0 114.08269195699098,4.400000095367432 114.08269195699098,9.800000190734863 L114.08269195699098,126.21276180720012 C114.08269195699098,131.6127557036845 109.68268280171755,136.01276485895795 104.28268890523317,136.01276485895795" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        <div id="vy4O7R57HXJ46OPU" style="z-index:15;position:relative;">
+        <div id="OuXwSsCdUFZXxfQt" style="padding-top:78.39514755%;transform:rotate(0deg);">
+        <div id="i5g0RAwUAi0N3ZrX" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="WgnXc0j3hHW3Y2zt" style="width:100%;opacity:1.0;height:100%;">
+        <div id="zkgoGxzHyYCoPdCj" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="EeM2TRX9MHJmVvg7" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 127.559%; opacity: 1;">
+        <img src="./Imagenes/Laptop Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="JVGvFC6UncJiWpad" style="z-index:9;position:relative;">
+        <div id="xXYes3nVWB4sg34k" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="APEWdalY1KjVKMTA" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="mlFeg29kJDMhAYDY" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Kelvetica;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="GMsoyAHaAqk81903" style="color:#ffffff;font-weight:700;">Laptops</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="pfPFGfy5uHRJgKwi" style="z-index:8;position:relative;">
+        <div id="y2T6lP4x9wYjprzD" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="whdl7FdJcalmoJjl" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="W3JcRgpaCH823LZO" style="text-transform:none;color:#ffffff;letter-spacing:0em; font-family:Telegraf; line-height:1.3em;">
+        <span id="gLCN7JWZv6hAcHIN" style="color:#ffffff;">Reparación de Laptops a nivel componente, displays, memoria RAM, discos duros, etc.</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="XgK7ejOmJTPc7uJ7" style="z-index:2;position:relative;">
+        <div id="pdLF20e5pm8cnAvq" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <svg id="kDaVOXn3jkl1Co6e" viewBox="0 0 114.0827 145.4672" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="EC72wybeafXDr5Xc" style="transform:scale(1, 1);">
+        <path id="DkPDdSkzvQGEWqg4" d="M104.28267364644414,145.46717668350226 L9.800000190734863,145.46717668350226 C4.400000095367432,145.46717668350226 0.0,141.06718278701788 0.0,135.66717363174445 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.2826889052332,0.0 C109.68268280171758,0.0 114.08269195699101,4.400000095367432 114.08269195699101,9.800000190734863 L114.08269195699101,135.6671888905335 C114.08269195699101,141.06718278701788 109.68268280171758,145.46719194229132 104.2826889052332,145.46719194229132" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        <div id="rmhymJUbDTzqPCPi" style="z-index:5;position:relative;">
+        <div id="Pdbx4QUdWNcn1gs4" style="padding-top:98.93301044%;transform:rotate(0deg);">
+        <div id="Ju2kBjX9kuXZLAIb" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="nLd5xgPPkGQtVJ5N" style="width:100%;opacity:1.0;height:100%;">
+        <div id="JHansXPRpzmoNVXy" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="YilvvS2KuQ9P2HTC" style="transform: rotate(0deg); top: -4.37105%; left: -17.2976%; width: 134.055%; position: absolute; height: 135.501%; opacity: 1;">
+        <img src="./Imagenes/Impresora Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="l7NhhsISca4auX7s" style="z-index:4;position:relative;">
+        <div id="lTjSbOvKTgXHDo8g" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="Cq0WcHXS7sXEM28T" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="jaaU72XlIEiYuaWA" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Kelvetica;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="abrKQDNDtByLsiCk" style="color:#ffffff;">Impresoras</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="E1h3RDUARf0fhsTB" style="z-index:3;position:relative;">
+        <div id="CHJOj9f5JuLrDlND" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="Hk4XNIXG5xnYW0FZ" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="RkdpWceZOunoJh6B" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="tNKzpq6VoOIg30nq" style="color:#ffffff;">Reparamos todo tipo de impresoras como láser a color, láser blanco y negro e inyección de tinta.</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="xlKRzw47QRIBhLPq" style="z-index:11;position:relative;">
+        <div id="z8TK5EP34odG5TMP" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <svg id="HswwF019Aug5BlUB" viewBox="0 0 114.0827 136.5479" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="yzaJflNBdzZoOnMY" style="transform:scale(1, 1);">
+        <path id="PwQJoStMyxtrvtdq" d="M104.28267364644414,136.54790585016877 L9.800000190734863,136.54790585016877 C4.400000095367432,136.54790585016877 0.0,132.1479119536844 0.0,126.74790279841095 L0.0,9.800000190734863 C0.0,4.400000095367432 4.400000095367432,0.0 9.800000190734863,0.0 L104.2826889052332,0.0 C109.68268280171758,0.0 114.08269195699101,4.400000095367432 114.08269195699101,9.800000190734863 L114.08269195699101,126.74791805720001 C114.08269195699101,132.1479119536844 109.68268280171758,136.54792110895784 104.2826889052332,136.54792110895784" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        <div id="JG5hOJNA6V1PNK3T" style="z-index:14;position:relative;">
+        <div id="oGdgGitW0uCSbByZ" style="padding-top:90.37663436%;transform:rotate(0deg);">
+        <div id="gJet3VJqZcx7vdry" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="Vy0gzO54iFCYKei5" style="width:100%;opacity:1.0;height:100%;">
+        <div id="HsKcxCmRqYTSjsvU" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="xvOZkd2aLudM01Mq" style="transform: rotate(0deg); top: -11.136%; left: -19.6549%; width: 137.976%; position: absolute; height: 152.668%; opacity: 1;">
+        <img src="./Imagenes/Tele Blanca.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="MAVoqbb2K6iLRW0L" style="z-index:13;position:relative;">
+        <div id="Zq9k60DCj7ShE25I" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="MV1aSB62vj7LprQm" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="pywtt9kyHf7qIARS" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Kelvetica;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="NFDFzS6Vnrccsol1" style="color:#ffffff;font-weight:700;">Pantallas de T.V.</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="Smj1sBTlwLr3Ukn0" style="z-index:12;position:relative;">
+        <div id="lOy4OASXrHRWobso" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="ae3n7rhOkQorjgvM" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="EbV8DCAbWB8iwwu5" style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="YCo0bWbDe28gczwC" style="color:#ffffff;">Reparación a nivel componente, cambio de display y cambio de LED's.</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section id="pc0mWd4YP0ITLwvD" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
+        <div id="o3q617qvr2bMI9M7" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="EBXVAoZS2aYlXalb" style="z-index:0;position:relative;">
+        <div id="QlcrzSNFYKoPxkpk" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="o4JDGu0DsKvCa9O3" style="width:100%;opacity:1.0;height:100%;">
+        <div id="VdEMADdzvkMEncyd" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="mzbVMSPPaI0cGSuQ" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="ymDnbbBWd3oD9twn" style="z-index:1;position:relative;">
+        <div id="yOZrgGRKNMOOUSos" style="padding-top:66.7%;transform:rotate(0deg);">
+        <div id="FwFkQ8vwOyb9cc1I" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="SLjIcOb9dF3spCIb" style="width:100%;opacity:1.0;height:100%;">
+        <div id="eEJUyIiG6u64tppf" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="nJBNZYbaeopxVtlt" style="transform: rotate(0deg); top: 0%; left: 0%; width: 100%; position: absolute; height: 100%; opacity: 1;">
+        <img src="./Imagenes/Chip.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="Rsn7xWYpCTtICYyD" style="z-index:3;position:relative;">
+        <div id="WIffEc56hB7sfGMe" style="padding-top:100%;transform:rotate(0deg);">
+        <div id="zCq2O3vLAP18KA2g" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="yvF5oLjGXoZ9iwAD" viewBox="0 0 64.0 64.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="pUxTyoaBcIvWCYbs" style="transform:scale(1, 1);">
+        <path id="DDw49IxKmHvLy9Gk" d="M0.0,0.0 L64.0,0.0 L64.0,64.0 L0.0,64.0 L0.0,0.0" style="fill:#3d5a75;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="diCqkqwk3xO8aboE" style="z-index:2;position:relative;">
+        <div id="gfhJE2rzEf3MKL3F" style="padding-top:100%;transform:rotate(0deg);">
+        <div id="dckUie95RNfE4hrv" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="L0ZVc1XZQyRuvi8k" viewBox="0 0 183.4231 183.4231" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="ZSq5q6VRoF4q9ecr" style="transform:scale(1, 1);">
+        <g id="VbnACcjll6rmcqiL" style="clip-path:url(#GMRXgIMYOdesNUth);">
+        <clippath id="GMRXgIMYOdesNUth">
+        <path d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z">
+        </path>
+        </clippath>
+        <path id="sBrkTxFWmAD0P6ZR" d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z" style="fill:#002942;opacity:1.0;">
+        </path>
+        <path id="o6iabZhdpaLRCdgI" d="M9.99999892,0.0 L173.4231273,0.0 C176.07529191,0.0 178.61883077000002,1.05356829 180.49419435000001,2.92893187 182.36955793,4.80429545 183.42312622,7.3478343100000005 183.42312622,9.99999892 L183.42312622,173.4231273 C183.42312622,176.07529191 182.36955793,178.61883077000002 180.49419435000001,180.49419435000001 178.61883077000002,182.36955793 176.07529191,183.42312622 173.4231273,183.42312622 L9.99999892,183.42312622 C7.3478343100000005,183.42312622 4.80429545,182.36955793 2.92893187,180.49419435000001 1.05356829,178.61883077000002 0.0,176.07529191 0.0,173.4231273 L0.0,9.99999892 C0.0,7.3478343100000005 1.05356829,4.80429545 2.92893187,2.92893187 4.80429545,1.05356829 7.3478343100000005,0.0 9.99999892,0.0 Z" style="fill:none;stroke:#ffffff;stroke-linecap:butt;vector-effect:non-scaling-stroke;">
+        </path>
+        </g>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="INZD1mb1GG9YiNee" style="z-index:5;position:relative;">
+        <div id="LLThrBTocIVys7CC" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="fcxKwK2XBgVilu4w" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="cjdNgKs70F8lt6aF" style="margin-left:0em;text-transform:none;color:#42bce8;letter-spacing:0em;font-family:Grotesk;line-height:1.2em;direction:ltr;">
+        <span id="ZgsMFG5L02XsijVE" style="color:#42bce8;font-weight:700;font-style:normal;">Sobre Nosotros</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="ewXztDCSsvYTy1ym" style="z-index:6;position:relative;">
+        <div id="IbxHEVXlarpjC3Hj" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="WcfayTJa8YGjzD7k" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="i4N0838vnfWxPvHf" style="color:#ffffff;font-family:Telegraf;line-height:1.59em;">
+        <span id="Ucf132hGquZ84PRG" style="color:#ffffff;">En </span>
+        <span id="mm8fDjBDKLokBmDC" style="color:#ffffff;font-weight:700;">Laptop Servicio</span>
+        <span id="UcIHz0IQYJeeSETb" style="color:#ffffff;"> contamos con amplia experiencia en el ramo de reparación y </span>
+        <span id="JV2VQqy3itdW7h1x" style="color:#ffffff;">mantenimiento de equipo de cómputo.</span>
+        <span id="DqZ0NsWMcIzhh2Ho" style="color:#ffffff;white-space:pre-wrap;">  </span>
+        <span id="WV8hl1kWcH3NhnnJ" style="color:#ffffff;">Nuestros técnicos cuentan con especialidad en monitores, CPU’s, laptops, impresoras, No-Break’s, cableado UTP.</span>
+        <br>
+        </p>
+        <p id="rLgqBrOdFSbFcHyh" style="color:#ffffff;white-space:pre;font-family:Telegraf;line-height:1.59em;">
+        <br>
+        </p>
+        <p id="JjPaKc0HIBObDWC5" style="color:#ffffff;font-family:Telegraf;line-height:1.59em;">
+        <span id="frWFI4CwVPMDJPwV" style="color:#ffffff;">Hemos sido C</span>
+        <span id="VEtRKucSSQzcNFtX" style="color:#ffffff;">entro de Servicio para un</span>
+        <br>
+        </p>
+        <p id="RwgLsNh8bdIYlcS1" style="color:#ffffff;font-family:Telegraf;line-height:1.59em;">
+        <span id="t53849N8LMGeHP29" style="color:#ffffff;">importante fabricante de computadores nacionales.</span>
+        <br>
+        </p>
+        <p id="IFeOs9INGAB7IGTT" style="color:#ffffff;white-space:pre;font-family:Telegraf;line-height:1.59em;">
+        <br>
+        </p>
+        <p id="Ht0NeEQYNkiOuhKp" style="text-transform:none;color:#ffffff;font-family:Telegraf;line-height:1.59em;direction:ltr;">
+        <span id="Fx7C5d7hKlVKrf0I" style="color:#ffffff;">Mantenemos un alto estándar en el servio </span>
+        <span id="jUbviE9pe18MCrpx" style="color:#ffffff;">en atención a clientes nivel usuarios finales, brindando un servicio directo, personalizado y amable .</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section id="dhb7xxEYkeuqERSn" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
+        <div id="heJ0WgB0MBKHy7no" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="IwRXkOrmKc86j6Pt" style="z-index:0;position:relative;">
+        <div id="A9wutofmlew1jThr" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="ZIHFVZBLqKG7hciC" style="width:100%;opacity:1.0;height:100%;">
+        <div id="fWTGieZTkCbZtFI1" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="UOsWzBSh6v9FNqws" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="ocD9N2XuVEIzHzLr" style="z-index:2;position:relative;">
+        <div id="Q3UYsP9QgTvlV9zc" style="padding-top:34.13553795%;transform:rotate(0deg);">
+        <div id="Bd8JVNw9U2kEuiTg" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="q0hmFaP36EJ4GMfC" viewBox="0 0 93.7439 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="AFzbMaJu6Y5tU4f8" style="transform:scale(1, 1);">
+        <path id="p4lXOwSb3NeCGn1K" d="M9.99999518,0.0 L83.74394709,0.0 C89.26679192,0.0 93.74394226,4.4771503500000005 93.74394226,9.99999518 L93.74394226,22.00000482 C93.74394226,27.522849660000002 89.26679192,31.99999999 83.74394709,32.0 L9.99999518,32.0 C4.47715034,32.0 0.0,27.52284965 0.0,22.00000482 L0.0,9.99999518 C0.0,4.47715034 4.4771503500000005,0.0 9.99999518,0.0 Z" style="fill:#ff814f;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="c3DnUorwhXE7yeCW" style="z-index:3;position:relative;">
+        <div id="tAZ7VirM7nqZzC0h" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="DtVGRroEI0XBr43O" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="fqlOPyyBtk03FuG6" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;text-align:center;">
+        <span id="yXXGDO4LX3oWcHPG" style="color:#ffffff;">Llámanos</span>
+        <span id="KyTJKuaVzPWd6RG5" style="color:#ffffff;white-space:pre-wrap;">  </span>
+        <span id="SE7pLuYz2LkvP7La" style="color:#ffffff;">a nuestro número</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="ONDYFR5SVyehheDt" style="z-index:5;position:relative;">
+        <div id="DFtAA2nv019Q6gdg" style="padding-top:34.13553795%;transform:rotate(0deg);">
+        <div id="OtdwXSxvmq21kERU" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="pguYJNQ6HRfuAzps" viewBox="0 0 93.7439 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="c9gIYY0E8NS641qv" style="transform:scale(1, 1);">
+        <path id="xaG503u9mia25D9W" d="M9.99999518,0.0 L83.74394709,0.0 C89.26679192,0.0 93.74394226,4.4771503500000005 93.74394226,9.99999518 L93.74394226,22.00000482 C93.74394226,27.522849660000002 89.26679192,31.99999999 83.74394709,32.0 L9.99999518,32.0 C4.47715034,32.0 0.0,27.52284965 0.0,22.00000482 L0.0,9.99999518 C0.0,4.47715034 4.4771503500000005,0.0 9.99999518,0.0 Z" style="fill:#ff814f;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="ShFs7ClWP9eidQg4" style="z-index:6;position:relative;">
+        <div id="BNDNIv6EVtaxHOWW" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="sHeRaTk4fsZpRMja" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="tJV6ofESi7CuU6aI" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;text-align:center;">
+        <span id="hWLCErzjzs5jeyxf" style="color:#ffffff;">Cotiza tu servicio o reparación</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="RT6AT62vy6HnZGil" style="z-index:8;position:relative;">
+        <div id="hjGP7oXmsTGfaDkt" style="padding-top:21.55507053%;transform:rotate(0deg);">
+        <div id="hWALUQtgv5wTWw8a" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="vFsfpANV2laLLZtb" viewBox="0 0 148.4569 32.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="W9TYQ98ilv9Dm0N1" style="transform:scale(1, 1);">
+        <path id="Q3B5y7C9VnCE68m7" d="M9.99999672,0.0 L138.45695824,0.0 C141.10912227,0.0 143.65266056000002,1.05356806 145.52802373,2.92893123 147.40338690000002,4.8042944 148.45695496,7.34783269 148.45695496,9.99999672 L148.45695496,22.00000328 C148.45695496,27.522848970000002 143.97980393,32.0 138.45695824,32.0 L9.99999672,32.0 C7.34783269,32.0 4.8042944,30.94643194 2.92893123,29.07106877 1.05356806,27.1957056 0.0,24.65216731 0.0,22.00000328 L0.0,9.99999672 C0.0,7.34783269 1.05356806,4.8042944 2.92893123,2.92893123 4.8042944,1.05356806 7.34783269,0.0 9.99999672,0.0 Z" style="fill:#ff814f;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="KhbLfTL1RM15yTZd" style="z-index:9;position:relative;">
+        <div id="Pqwkic7qDnaHLF06" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="yLf7I5p9Lec8mKj5" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="xCaTpYh6AZJ6aZ7F" style="text-transform:none;color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;text-align:center;">
+        <span id="ILiWSjezUeLH6aVD" style="color:#ffffff;">Acuerda un punto para la recolección de tu equipo</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="g43GVy3pvxaQ0lkl" style="z-index:11;position:relative;">
+        <div id="wufS9Px5CPtrzCCs" style="padding-top:100%;transform:rotate(0deg);">
+        <div id="DFWZ6P0YqWxEYou5" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <svg id="ibvhGmYGeu8A2gWj" viewBox="0 0 1000.0 1000.0" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="Th5bHT6RUUbAijJO" style="transform:scale(1, 1);">
+        <g id="wqXWa94rcPzxD5QJ" style="clip-path:url(#OlT9LPV0PSo8IVVE);">
+        <clippath id="OlT9LPV0PSo8IVVE">
+        <path d="M798.5,141.39999389648438 C704.8000030517578,82.39999389648438 679.6999969482422,79.69999313354492 569.6000061035156,67.49999237060547 C317.20001220703125,70.49999237060547 112.60000610351562,216.29999542236328 33.399993896484375,455.99999237060547 C6.300000190734863,538.0 -0.8999999761581421,629.7000122070312 30.899999618530273,710.0 C72.69999885559082,815.5 176.59999656677246,887.0 286.3999996185303,915.8000030517578 C396.2000026702881,944.7000026702881 517.0999965667725,984.4000015258789 629.699987411499,970.7000045776367 C717.4999904632568,960.0000047683716 805.199987411499,895.8000030517578 870.8999843597412,836.5999984741211 C914.4999828338623,797.2999992370605 941.699987411499,742.7999954223633 959.8999843597412,686.9999923706055 C1023.5,492.79998779296875 971.4000244140625,250.39999389648438 798.5,141.39999389648438">
+        </path>
+        </clippath>
+        <g id="dvwIlIL70efUDPjh" style="transform:scale(1, 1);transform-origin:511.5px 526px;">
+        <image id="xRY6Mt2aRHfRDd6C" href="Imagenes/Telefonista.png" width="1358.04749011px" height="905.99024547px" preserveAspectRatio="none" style="transform:translate(-181.05890622px, 67.5px) rotate(0deg);transform-origin:679.02374506px 452.99512274px;opacity:1.0;">
+        </image>
+        </g>
+        </g>
+        </g>
+        </svg>
+        </div>
+        </div>
+        </div>
+        <div id="c8lVmT14iNoToNJq" style="z-index:12;position:relative;">
+        <div id="TZYmzNWrE1ISHp1l" style="padding-top:74%;transform:rotate(90deg);">
+        <div id="k935cg72SnxkQ7qw" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="P5Cpm4RmABIThGEX" style="width:100%;opacity:1.0;height:100%;">
+        <div id="zykyxk0RWhBXFugc" style="transform:scale(-1, -1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="nDfyYHRbyQNXjfzX" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Flecha Naranja.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section id="BZyAidsbk9N1oxPY" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
+        <div id="ZfTHqTDqDLPhIh2q" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="WmwZ7apAU82hbHuZ" style="z-index:0;position:relative;">
+        <div id="sYnnXNAKjoMPiq7f" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="YnTmKYbo0BM4JIcG" style="width:100%;opacity:1.0;height:100%;">
+        <div id="NoWPX4lKVu56Kf2w" style="background-color:#ffffff;transform:scale(-1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        <div id="qjCEEZnlXkjh3d8z" style="transform:rotate(0deg);top:0%;left:-9.74008934%;width:119.58287124%;position:absolute;height:119.64126132%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Fondo Azul.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="E6ZNme1VFKnFtdOX" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="lWO07Uz3JWPJoZI3" style="z-index:1;position:relative;">
+        <div id="h5gSJePRHV0RA4Ej" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="ZXmxV1lUpAnfiWFQ" style="width:100%;opacity:1.0;height:100%;">
+        <div id="rXMCSihhUhoncqrD" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="WBWjHX1w9orCFvnh" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Tecnico Reparando.jpg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="VYrbIMGkpMAYPGv0" style="z-index:2;position:relative;">
+        <div id="N0CFDtlzZ7dFrWOA" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="vXEWz7DqPx5Jgrc1" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="BzLbtzUrUcphNtrx" style="margin-left:0em;text-transform:none;text-shadow:0.06629126em 0.06629126em 0.05125em rgba(0, 0, 0, 0.900000);color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.4em;direction:ltr;text-align:center;">
+        <span id="MfXF5tzognlc5CgH" style="text-decoration-line:none;color:#ffffff;font-weight:700;font-style:normal;">La tecnología no tiene que ver los últimos dispositivos o aplicaciones. Tiene que ver con lo que estas cosas hacen por las personas. Se trata de reunir a las personas y hacer que vivan</span>
+        </p>
+        <p id="doUrJlfVbQjR59x5" style="margin-left:0em;text-transform:none;text-shadow:0.06629126em 0.06629126em 0.05125em rgba(0, 0, 0, 0.900000);color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.4em;direction:ltr;text-align:center;">
+        <span id="krjB8LAcIdMcFmtR" style="text-decoration-line:none;color:#ffffff;font-weight:700;font-style:normal;">mejores vidas.</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section id="ooeL56KcFZC1Ml9W" style="z-index:0;overflow:hidden;grid-template-columns:auto 100rem auto;display:grid;margin-top:-1px;position:relative;align-items:center;">
+        <div id="SQK23RuSZ6HCK3b8" style="display:grid;min-height:100%;position:absolute;grid-area:1 / 1 / 2 / 4;min-width:100%;">
+        <div id="sdiEf6K2g5Z78frc" style="z-index:0;position:relative;">
+        <div id="qARgXfE6qobu2vNx" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="kZiF0gzNQSfwGGJc" style="width:100%;opacity:1.0;height:100%;">
+        <div id="TMQz4DkB7X6Qfr4j" style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;position:relative;opacity:1.0;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="uNRq0kSF8PnHwtz9" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
+        <div id="AAuB2qszhLGUAjwA" style="z-index:6;position:relative;pointer-events:none;">
+        <div id="sC2FCDY3nHZRwGe1" style="padding-top:100.73260073%;transform:rotate(0deg);">
+        <div id="uLT1piDGW3NDawEZ" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="Oeq58Xx8KLLPhXAd" style="width:100%;opacity:0.25;height:100%;">
+        <div id="zxr3rXm07Tluh96g" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="KETQYUh8l9Ujrqdv" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Chip 2.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="VppkH0qvNrQz3kV3" style="z-index:5;position:relative;">
+        <div id="b59yVT7mSDXVAx60" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="cUCVI0tsAGnN3kWn" style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+        <p id="Df6uLSJVHKLxfokG" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:Grotesk;line-height:1.2em;direction:ltr;">
+        <span id="IYrhrPu919pILnH0" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Comunícate con nosotros</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="bLU2WJEv0PZNuTWl" style="z-index:8;position:relative;">
+        <div id="UOlIDxd2fFQlj04U" style="padding-top:100%;transform:rotate(0deg);">
+        <div id="rT71aXDUojDIEjeJ" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <a id="ohCTp1ri5GiRlDyQ" target="_blank" rel="noopener" href="https://laptopservicio.com/_link/?link=https%3A%2F%2Fwww.instagram.com%2Flaptop_servicio%2F&amp;target=uWqfbZfcrZ2gp6XuStp4FzBomQsIUyAKmEaxf%2F3qakcKmRt2lS3v0dGiRF1V0EudvJ05BzswSie7Daeklev84XVZbGiM9WE7D40OgvmbBwNREGJqwpprVe%2Bu%2FllLww%3D%3D&amp;iv=NG7t7CWu93H4tN6C" style="pointer-events:all;">
+        <div id="Y26CLu5UqaYyUurZ" style="width:100%;opacity:1.0;height:100%;">
+        <div id="d5UeOpMqBWT9MSd7" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="HaTvTYfnGQZxQTQA" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Logo Instagram.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div>
+        <div id="XzSo5QzIF6mn6IJ0" style="z-index:13;position:relative;">
+        <div id="TmELAl0JfDE0qXBW" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="UUmdBGeclSgR1KbX" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="C9845GIMIVLdcD0L" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="sV6TcSbUHZZqGf0x" style="color:#000000;">instagram</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="VP0x2GrPW5lL9n2W" style="z-index:12;position:relative;">
+        <div id="Njcpt5VbHnvB9UI1" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="AdauvVIGVFsdpQuU" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="mGu53CfsLsfd9ZXu" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:Grotesk;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="CalJNZZtYRcR4za4" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Dirección de correo electrónico</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="U8t2CST4NDVwfRTo" style="z-index:11;position:relative;">
+        <div id="Tq5rYcatEpTWUYhT" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="M9y5OV9JaoeRHMjH" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="HzhbITANbJHTTRk7" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="hUUatrCdfbMqyQ5X" style="color:#000000;">
+            <a href="mailto:someone@exemple.com?subject=Questions">contacto@laptopservicio.com</a>
+        </span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="JM6QkxAulhdhmCCY" style="z-index:16;position:relative;">
+        <div id="TTPGNc2f2XCiPY31" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="jdDoC67x84kuD9To" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="swfy2vrto9RpWJIL" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:Grotesk;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="fJTehgxBjDfJAFrw" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Número telefónico</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="iuCCrxadYdY0D49R" style="z-index:15;position:relative;">
+        <div id="NOrZGWrjlFIbiU9C" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="nqk67RfSVcpcmdel" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="hb7g2Pjg13lsjnjJ" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">           
+        <span id="dIJUUiRte7UIlvjj" style="text-decoration-line:none;color:#000000;font-weight:400;font-style:normal;">(55) 4667 2850</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="uFaVZRhhwjCMpPQk" style="z-index:1;position:relative;">
+        <div id="to8NsDPOpUFpMiBk" style="padding-top:31.48498102%;transform:rotate(0deg);">
+        <div id="xEMSeqvqBOnkAjnU" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="hwoDX6RwGvNkMs1U" style="width:100%;opacity:1.0;height:100%;">
+        <div id="YOBm5zb54iqcnhPs" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="qZUTg7pvEHiRC3hX" style="transform:rotate(0deg);top:-2.35037173%;left:0%;width:100%;position:absolute;height:104.70074345%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Servicios.png" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="MygVLseB9Ispqsix" style="z-index:4;position:relative;">
+        <div id="IPuJdrv4QJQ2x8os" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="F6oPTjWf1P2OJlFR" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="P0i8TRM7LszGFkxx" style="margin-left:0em;text-transform:none;color:#2a6ef2;letter-spacing:0em;font-family:Grotesk;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="Y1kT7vI8wydeqXil" style="text-decoration-line:none;color:#2a6ef2;font-weight:700;font-style:normal;">Dirección postal</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="m8CDj6ryaJ7ZWylw" style="z-index:3;position:relative;">
+        <div id="PnuCZpIvgfYvfQ4T" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="v2iexBJ1AxtJmTFc" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="dDdOgp7Af6IAW5pz" style="margin-left:0em;text-transform:none;color:#000000;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="uBbv10CcOcSFB6EC" style="color:#000000;">Ote. 108 #33, Iztacalco, Ciudad de México, México 08030</span>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="AOV98rUReYp3cXDG" style="z-index:7;position:relative;">
+        <div id="Qfua6xvtwVBGYszM" style="padding-top:100%;transform:rotate(0deg);">
+        <div id="ioLtdhnDLhIzgch0" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+        <div id="rFVrJwQk4lgXRdI4" style="width:100%;opacity:0.2;height:100%;">
+        <div id="q5S21N5taQCt1h2G" style="transform:scale(1, 1);overflow:hidden;width:100%;position:relative;height:100%;">
+        <div id="U5rEtWcTn51qCXE4" style="transform:rotate(0deg);top:0%;left:0%;width:100%;position:absolute;height:100%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+        <img src="./Imagenes/Chip1.svg" alt="Servicio de Reparación y Mantenimiento a computadoras, laptops e impresoras" loading="lazy" style="display:block;object-fit:cover;width:100%;height:100%;">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="fLwWUXQ3DH6WO7k8" style="z-index:9;position:relative;">
+        <div id="lsaTkrzMxVp5nRTZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <svg id="mb3ivK5wYijoMwFv" viewBox="0 0 379.4444 9.2416" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="sm3oOCuY0EIAD4s1" style="transform:scale(1, 1);">
+        <path id="vb1WfgASMFwwdOpU" d="M0.0,0.0 L379.4444444444445,0.0 L379.4444444444445,9.24158612241456 L0.0,9.24158612241456 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        <svg id="Wv4oNP67ngb1bNTV" viewBox="0 0 266.6667 15.9449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="BfeWsBtaBFGvRTz6" style="transform:scale(1, 1);">
+        <path id="GFLXNT7pGuxJeZHI" d="M0.0,0.0 L266.66666666666674,0.0 L266.66666666666674,15.944865283429465 L0.0,15.944865283429465 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        <svg id="bAI2RV8fhLUtXWZ5" viewBox="0 0 195.5556 15.9449" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="VzQPTCZh29GpKxM0" style="transform:scale(1, 1);">
+        <path id="TY18L8bOGbsXxI0j" d="M0.0,0.0 L195.5555555555556,0.0 L195.5555555555556,15.94486528342945 L0.0,15.94486528342945 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        <svg id="lOoHIObY0CXa1zI1" viewBox="0 0 124.4444 25.2282" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="SC5Mi23UJwoyQ1vm" style="transform:scale(1, 1);">
+        <path id="y1ZyqlOEuVJsrzI5" d="M0.0,0.0 L124.44444444444446,0.0 L124.44444444444446,25.22815270149603 L0.0,25.22815270149603 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        <svg id="DrUkOEs4mA6zxVMO" viewBox="0 0 95.2778 23.958" preserveAspectRatio="none" style="overflow:hidden;top:0%;left:0%;width:100%;position:absolute;opacity:1.0;height:100%;">
+        <g id="twYsww65CbBF2lkU" style="transform:scale(1, 1);">
+        <path id="kgKIJpuATZVEVY2n" d="M0.0,0.0 L95.2777777777778,0.0 L95.2777777777778,23.957956420920254 L0.0,23.957956420920254 L0.0,0.0" style="fill:#2a6ef2;opacity:1.0;">
+        </path>
+        </g>
+        </svg>
+        </div>
+        </div>
+        <div id="DcfkD19SuIQpBavc" style="z-index:17;position:relative;">
+        <div id="ALp5Z03vYPk8IYnL" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="mbfC9azX7gfrxqxX" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="aUPbBQOQLBj0ZjCe" style="margin-left:0em;text-transform:none;text-shadow:0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:left;">
+        <span id="pWw7MSJtX42qJVGj" style="color:#ffffff;">Desarrollado por: maryana_85@hotmail.com</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div id="YoyxVcs926hwlBQV" style="z-index:18;position:relative;">
+        <div id="bnWiwoc9b0oB1hIS" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+        <div id="tcm0QVOldQgsXFRB" style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+        <p id="ov9BDVsSQG4Y6Un8" style="margin-left:0em;text-transform:none;text-shadow:0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);color:#ffffff;letter-spacing:0em;font-family:Telegraf;line-height:1.3em;direction:ltr;text-align:right;">
+        <span id="Z9VSqRhscGuU2JcY" style="color:#ffffff;">Enero 2023</span>
+        <br>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <script src="./Imagenes/73ad2651535b7ecadd366d5fa045dc32c1cdb8fc38f8243601b62b64f4123420.js.descarga" async="" nonce="">
+        </script>
+        </div>
+        </body>
+        <div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box white; height: 4259px; width: 1259px;">
+        </div>
+        <div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 4259px; width: 1259px;">
+        </div>
+        </html>
